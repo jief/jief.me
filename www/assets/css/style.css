@@ -1,0 +1,138 @@
+body {
+  padding-bottom: 70px;
+}
+
+li {
+  text-align: -webkit-match-parent;
+  float: left;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+span.label {
+  margin-right: 2px;
+}
+
+.container {
+  min-width: 560px;
+}
+
+.icons li a {
+  display: inline-block;
+  height: 64px;
+  width: 64px;
+  background-size: 64px 64px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-indent: -9999em;
+}
+
+div.right {
+  width: 235px;
+  margin-top: 25px;
+}
+
+#icn-twitter {
+  background-color: #00ACED;
+  background-image: url('../img/icons/twitter/twitter-64.png');
+}
+
+#icn-linkedin {
+  background-color: #007FB1;
+  background-image: url('../img/icons/linkedin/linkedin-64.png');
+}
+
+#icn-plus {
+  background-color: #D14836;
+  background-image: url('../img/icons/googleplus/googleplus-64.png');
+}
+
+#icn-4sqr {
+  background-color: #2398C9;
+  background-image: url('../img/icons/foursquare/foursquare-64.png');
+}
+
+#icn-github {
+  background-color: #000000;
+  background-image: url('../img/icons/github/github-64.png');
+}
+
+#icn-diigo {
+  background-color: #3274D1;
+  background-image: url('../img/icons/delicious/delicious-64.png');
+}
+
+#icn-drupal {
+  background-color: #0077C0;
+  background-image: url('../img/icons/drupal/drupal-64.png');
+}
+
+#icn-lastfm {
+  background-color: #D51007;
+  background-image: url('../img/icons/lastfm/lastfm-64.png');
+}
+
+#icn-spotify {
+  background-color: #80B719;
+  background-image: url('../img/icons/spotify/spotify-64.png');
+}
+
+#icn-skype {
+  background-color: #00AFF0;
+  background-image: url('../img/icons/skype/skype-64.png');
+}
+
+#icn-gmail {
+  background-color: #DD4B39;
+  background-image: url('../img/icons/gmail/gmail-64.png');
+}
+
+#icn-instagram {
+  background-color: #3F729B;
+  background-image: url('../img/icons/instagram/instagram-64.png');
+}
+
+#icn-pocket {
+  background-color: #EF4056;
+  background-image: url('../img/icons/pocket/pocket-64.png');
+}
+
+#icn-klout {
+  background-color: #E24A25;
+  background-image: url('../img/icons/klout/klout-64.png');
+}
+
+#icn-facebook {
+  background-color: #3B5998;
+  background-image: url('../img/icons/facebook/facebook-64.png');
+}
+
+@media screen and (max-width: 990px) {
+  div.right {
+    width: 100% ;
+  }
+
+  .icons li a {
+    height: 128px;
+    width: 128px;
+
+    background-position: center center;
+  }
+
+  .icons {
+    padding: 0;
+  }
+
+  div.skills {
+    max-width: 655px;
+  }
+}
+
+@media screen and (max-width: 683px) {
+  div.skills,
+  h2, h3 {
+    max-width: 540px;
+  }
+}

@@ -1,0 +1,5 @@
+google*.html
+vendor
+composer.lock
+composer.phar
+config.yml
