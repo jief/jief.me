@@ -58,7 +58,6 @@ $app->get('/social', function() use ($linkedin, $app) {
     array('url' => 'https://github.com/jief', 'label' => 'Github', 'key' => 'github'),
     array('url' => 'https://www.facebook.com/jf.monfort', 'label' => 'Facebook', 'key' => 'facebook')
   );
-
   return $app->json($data, 200);
 });
 
@@ -84,8 +83,6 @@ $app->get('/skills', function() use ($linkedin, $app) {
   return $app->json($data, 200);
 });
 
-$app->run();
-
 $app->get('/positions', function() use ($linkedin, $app) {
   $data = array();
   try {
@@ -101,3 +98,5 @@ $app->get('/positions', function() use ($linkedin, $app) {
   }
   return $app->json($data, 200);
 });
+
+$app->run();
