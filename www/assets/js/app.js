@@ -12,7 +12,7 @@ am.controller('JiefController', function UserController($scope, $http) {
   }
 
   $scope.positions = function() {
-    $http.get('bootstrap.php?a=po').success(function(data) {
+    $http.get('positions').success(function(data) {
       $scope.positions = data;
     });
   };
