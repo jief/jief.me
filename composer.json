@@ -1,9 +1,11 @@
 {
   "require": {
+    "silex/silex": "~1.1",
     "guzzle/guzzle": "~3.7",
-    "symfony/yaml": "2.3.5"
+    "symfony/yaml": "2.3.5",
+    "twig/twig": "1.6.5"
   },
   "autoload": {
-    "psr-0": {"jief": "src/"}
+    "psr-0": {"lib": "src/"}
   }
 }

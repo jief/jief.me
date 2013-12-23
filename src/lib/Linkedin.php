@@ -1,5 +1,5 @@
 <?php
-namespace jief;
+namespace lib;
 
 use Guzzle\Http\Client;
 use Guzzle\Plugin\Oauth\OauthPlugin;
