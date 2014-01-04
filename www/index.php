@@ -45,7 +45,7 @@ $app->get('/social', function() use ($linkedin, $app) {
     array('url' => 'http://twitter.com/jief', 'label' => 'Twitter', 'key' => 'twitter'),
     array('url' => 'http://be.linkedin.com/in/jfmonfort', 'label' => 'Linked In', 'key' => 'linkedin'),
     array('url' => 'http://jief.me/+', 'label' => 'Google+', 'key' => 'plus'),
-    array('url' => 'http://klout.com/jief', 'label' => 'Klout', 'key' => 'klout'),
+    //array('url' => 'http://klout.com/jief', 'label' => 'Klout', 'key' => 'klout'),
     array('url' => 'https://foursquare.com/jief', 'label' => 'Foursquare', 'key' => '4sqr'),
     array('url' => 'http://drupal.org/user/104385', 'label' => 'Drupal', 'key' => 'drupal'),
     array('url' => 'http://instagram.com/jief_me', 'label' => 'Instagram', 'key' => 'instagram'),
@@ -54,9 +54,9 @@ $app->get('/social', function() use ($linkedin, $app) {
     array('url' => 'callto://jf.monfort', 'label' => 'Skype', 'key' => 'skype'),
     array('url' => 'http://last.fm/user/jief', 'label' => 'Last.fm', 'key' => 'lastfm'),
     array('url' => 'http://open.spotify.com/user/jfmonfort', 'label' => 'Spotify', 'key' => 'spotify'),
-    array('url' => 'http://getpocket.com/users/jief_me/feed/all', 'label' => 'Pocket', 'key' => 'pocket'),
+    //array('url' => 'http://getpocket.com/users/jief_me/feed/all', 'label' => 'Pocket', 'key' => 'pocket'),
     array('url' => 'https://github.com/jief', 'label' => 'Github', 'key' => 'github'),
-    array('url' => 'https://www.facebook.com/jf.monfort', 'label' => 'Facebook', 'key' => 'facebook')
+    //array('url' => 'https://www.facebook.com/jf.monfort', 'label' => 'Facebook', 'key' => 'facebook'),
   );
   return $app->json($data, 200);
 });
