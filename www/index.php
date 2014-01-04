@@ -64,7 +64,7 @@ $app->get('/social', function() use ($linkedin, $app) {
 $app->get('/skills', function() use ($linkedin, $app) {
   $data = array();
   try {
-    $highlight = array('php', 'drupal', 'git', 'symfony', 'open source', 'mysql', 'cms', 'linux', 'javascript', 'lamp', 'jquery');
+    $highlight = array('php', 'drupal', 'git', 'symfony', 'open source', 'mysql', 'cms', 'linux', 'javascript', 'lamp', 'jquery', 'silex', 'twig');
     $skills = $linkedin->getSkills();
     if(is_array($data)) {
       foreach($skills as $skill) {
