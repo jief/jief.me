@@ -34,6 +34,10 @@ div.right {
   margin-top: 25px;
 }
 
+div.skills span {
+    margin-bottom: 2px;
+  }
+
 #icn-twitter {
   background-color: #00ACED;
   background-image: url('../img/icons/twitter/twitter-64.png');
