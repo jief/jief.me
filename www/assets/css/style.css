@@ -13,6 +13,7 @@ ol, ul {
 
 span.label {
   margin-right: 2px;
+  display: inline-block;
 }
 
 .container {
@@ -33,10 +34,6 @@ div.right {
   width: 235px;
   margin-top: 25px;
 }
-
-div.skills span {
-    margin-bottom: 2px;
-  }
 
 #icn-twitter {
   background-color: #00ACED;
