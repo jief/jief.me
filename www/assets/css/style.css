@@ -5,6 +5,8 @@ body {
 li {
   text-align: -webkit-match-parent;
   float: left;
+  height: 64px;
+  width: 64px;
 }
 
 ol, ul {
